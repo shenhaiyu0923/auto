@@ -8,6 +8,7 @@ ios_devices = atxserver2(ReadConfig().get_server_url()).present_ios_devices()
 if ios_devices:
     wdaUrl = ios_devices[0]['source']['wdaUrl']
 
+
 c = wda.Client(wdaUrl)
 print(c.status())
 print(c.healthcheck())
