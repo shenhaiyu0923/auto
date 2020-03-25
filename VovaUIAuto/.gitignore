@@ -1,0 +1,8 @@
+.idea/
+TestReport/
+TestReport_History/
+*.pyc
+apk/
+Image/
+Compare/
+CompareResult/
